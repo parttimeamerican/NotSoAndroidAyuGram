@@ -19,7 +19,7 @@ jobs:
           contents: |
             APP_ID = 21834135
             APP_HASH = "2608ac8c03a351fcfa88e165f3332acd"
-            MAPS_V2_API = 1
+            MAPS_V2_API = 0
 
             SIGNING_KEY_PASSWORD = ${{ secrets.SIGNING_KEY_PASSWORD }}
             SIGNING_KEY_ALIAS = ${{ secrets.SIGNING_KEY_ALIAS }}
