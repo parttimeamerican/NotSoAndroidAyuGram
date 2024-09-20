@@ -17,8 +17,8 @@ jobs:
         with:
           path: ./API_KEYS
           contents: |
-            APP_ID = 21834135
-            APP_HASH = "2608ac8c03a351fcfa88e165f3332acd"
+            APP_ID = 2
+            APP_HASH = ""
             MAPS_V2_API = 0
 
             SIGNING_KEY_PASSWORD = ${{ secrets.SIGNING_KEY_PASSWORD }}
